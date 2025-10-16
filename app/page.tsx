@@ -17,7 +17,7 @@ export default async function Home() {
             <div className="max-w-3xl text-center">
               <h1 className="text-4xl font-bold">Better Auth Starter</h1>
               <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-                This is a starter project for Better Auth with Next.js 13, Drizzle
+                This is a starter project for Better Auth with Next.js 15, Drizzle
                 ORM, and PostgreSQL.
               </p>
 
