@@ -7,8 +7,23 @@
   <h2 align="center">
     Better Auth Starter
   </h2>
+  <p align="center">
+    A simple authentication starter with Next.js, Better Auth, Tailwind CSS, and shadcn/ui
+    <br />
+    <a href="https://better-auth.com"><strong>Learn more »</strong></a>
+    <br />
+    <br />
+    <a href="https://discord.gg/better-auth">Discord</a>
+    ·
+    <a href="https://better-auth.com">Website</a>
+    ·
+    <a href="https://github.com/better-auth/better-auth/issues">Issues</a>
+  </p>
+</p>
 
-A simple authentication starter with Next.js, Better Auth, Tailwind CSS, and shadcn/ui.
+[![npm](https://img.shields.io/npm/dm/better-auth?style=flat&colorA=000000&colorB=000000)](https://npm.chart.dev/better-auth?primary=neutral&gray=neutral&theme=dark)
+[![npm version](https://img.shields.io/npm/v/better-auth.svg?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/better-auth)
+[![GitHub stars](https://img.shields.io/github/stars/better-auth/better-auth?style=flat&colorA=000000&colorB=000000)](https://github.com/better-auth/better-auth/stargazers)
 
 ## Quick Start
 
@@ -36,11 +51,11 @@ BETTER_AUTH_URL="http://localhost:3000"
 
 ## What's Included
 
--  Next.js 14+ with App Router
--  Better Auth for authentication
--  Tailwind CSS for styling
--  shadcn/ui components
--  TypeScript
+- ⚡ Next.js 14+ with App Router
+- 🔒 Better Auth for authentication
+- 🎨 Tailwind CSS for styling
+- 🧩 shadcn/ui components
+- 📝 TypeScript
 
 ## Project Structure
 
