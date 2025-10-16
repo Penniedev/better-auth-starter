@@ -50,7 +50,7 @@ BETTER_AUTH_URL="http://localhost:3000"
 
 ## What's Included
 
--  Next.js 14+ with App Router
+-  Next.js 15+ with App Router
 -  Better Auth for authentication
  - Drizzle ORM with Neon Database
 -  Tailwind CSS for styling
