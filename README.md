@@ -1,4 +1,4 @@
-# Better Auth Starter 🔐
+# Better Auth Starter 
 
 A simple authentication starter with Next.js, Better Auth, Tailwind CSS, and shadcn/ui.
 
