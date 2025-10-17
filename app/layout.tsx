@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { ThemeProvider } from "@/components/theme-provider"
+import { ThemeProvider } from "@/components/provider/theme-provider";
+import { AuthProvider } from "@/components/provider/auth-provider";
 import "./globals.css";
-
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,17 +25,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-        <>
+    <>
       <html lang="en" suppressHydrationWarning>
         <head />
-        <body className={`${geistSans.variable} ${geistMono.variable} h-screen`}> 
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} h-screen`}
+        >
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"
             enableSystem
             disableTransitionOnChange
           >
-            {children}
+            <AuthProvider>{children}</AuthProvider>
           </ThemeProvider>
         </body>
       </html>
